@@ -1,5 +1,5 @@
 # PIEF III
-<p>This project was developed as a solution for facamp's third Integrated Engineering Project (PIEF III), which aims to build a project involving relational databases, a subject administered in the same semester. The Clinic+ group then proposed the development of a chatbot for scheduling appointments in a dental clinic in order to facilitate the consultation process.</p>
+<p>This project was developed as a solution for facamp's third Integrated Engineering Project (PIEF III), which aims to build a project involving relational databases, a subject administered in the same semester. The Clinic+ group then proposed the development of a chatbot for scheduling appointments in a dental clinic in order to facilitate the scheduling process.</p>
 
 ## <ins>Goals</ins>
 <p>This project was done with academic purposes. It aims to build a chatbot for a dental clinic and is prepared to deal with formal and informal language.</p>
