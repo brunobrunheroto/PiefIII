@@ -24,15 +24,15 @@ The front-end of the site was made using Html and Css through Nicepage's softwar
 After executing the commands above, run the index file.
 
 ## <ins>Execution of the program:</ins>
-<p>Site appearance</p>
+<p><ins>Site appearance</ins></p>
 
 ![site1](https://user-images.githubusercontent.com/67275098/176106627-f602a5e9-c378-4c42-9961-71ff7da10208.gif)
 
-<p>Frequent questions Session</p>
+<p><ins>Frequent questions Session</ins></p>
 
 ![site2](https://user-images.githubusercontent.com/67275098/176106700-a2d6958a-855e-4db1-ad9b-a1eb9cbab86a.gif)
 
-<p>Chatbot being used</p>
+<p><ins>Chatbot being used</ins></p>
 
 https://user-images.githubusercontent.com/67275098/176107085-53e3d8cc-247d-492d-a71d-20b0f0a91336.mp4
 
