@@ -1,0 +1,91 @@
+[
+  {
+    "id": "ecea726a-a568-40b0-819a-fd153a337dc9",
+    "data": [
+      {
+        "text": "quando vcs atendem?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9840e189-1b36-489f-8264-0c6da6563ae2",
+    "data": [
+      {
+        "text": "vcs fecham ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "almoco",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4a9d0c27-f622-4217-a2ec-5f8417756350",
+    "data": [
+      {
+        "text": "quando fecham?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d6d37c41-d15c-44ed-a74f-1e4de63fa8ff",
+    "data": [
+      {
+        "text": "quando atendem?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "df582c87-64f2-42cb-9a5d-ccb463adf169",
+    "data": [
+      {
+        "text": "que horas ",
+        "userDefined": false
+      },
+      {
+        "text": "a clinica",
+        "userDefined": false
+      },
+      {
+        "text": " esta aberta?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

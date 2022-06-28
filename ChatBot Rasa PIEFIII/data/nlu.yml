@@ -1,0 +1,186 @@
+version: "2.0"
+nlu:
+
+- intent: inform
+  examples: |
+    - [Documentação ortodôntica](operacao) 
+    - [Tomografia](operacao) 
+    - [Radiografia paronâmica] (operacao)
+    - [Telerradiografia](operacao)
+    - Eu quero uma [documentação ortodôntica](operacao)
+    - Eu quero uma [tomografia](operacao)
+    - Eu quero uma [radiografia paronâmica](operacao)
+    - Eu quero uma [telerradiografia](operacao)
+    - Eu quero agendar para o dia [1](dia)
+    - Eu quero agendar para o dia [2](dia)
+    - Eu quero agendar para o dia [3](dia)
+    - Eu quero agendar para o dia [4](dia)
+    - Eu quero agendar para o dia [5](dia)
+    - Eu quero agendar para o dia [6](dia)
+    - Eu quero agendar para o dia [7](dia)
+    - Eu quero agendar para o dia [8](dia)
+    - Eu quero agendar para o dia [9](dia)
+    - Eu quero agendar para o dia [10](dia)
+    - Eu quero agendar para o dia [11](dia)
+    - Eu quero agendar para o dia [12](dia)
+    - Eu quero agendar para o dia [13](dia)
+    - Eu quero agendar para o dia [14](dia)
+    - Eu quero agendar para o dia [15](dia)
+    - Eu quero agendar para o dia [16](dia)
+    - Eu quero agendar para o dia [17](dia)
+    - Eu quero agendar para o dia [18](dia)
+    - Eu quero agendar para o dia [19](dia)
+    - Eu quero agendar para o dia [20](dia)
+    - Eu quero agendar para o dia [21](dia)
+    - Eu quero agendar para o dia [22](dia)
+    - Eu quero agendar para o dia [23](dia)
+    - Eu quero agendar para o dia [24](dia)
+    - Eu quero agendar para o dia [25](dia)
+    - Eu quero agendar para o dia [26](dia)
+    - Eu quero agendar para o dia [27](dia)
+    - Eu quero agendar para o dia [28](dia)
+    - Eu quero agendar para o dia [29](dia)
+    - Eu quero agendar para o dia [30](dia)
+    - Eu quero agendar para o dia [31](dia)
+    - Eu quero agendar para [8:00](horario)
+    - Eu quero agendar para [8:30](horario)
+    - Eu quero agendar para [9:00](horario)
+    - Eu quero agendar para [9:30](horario)
+    - Eu quero agendar para [10:00](horario)
+    - Eu quero agendar para [10:30](horario)
+    - Eu quero agendar para [11:00](horario)
+    - Eu quero agendar para [11:30](horario)
+    - Eu quero agendar para [12:00](horario)
+    - Eu quero agendar para [12:30](horario)
+    - Eu quero agendar para [13:00](horario)
+    - Eu quero agendar para [13:30](horario)
+    - Eu quero agendar para [14:00](horario)
+    - Eu quero agendar para [14:30](horario)
+    - Eu quero agendar para [15:00](horario)
+    - Eu quero agendar para [15:30](horario)
+    - Eu quero agendar para [16:00](horario)
+    - Eu quero agendar para [16:30](horario)
+- intent: pergunta_operacoes
+  examples: |
+    - Quais operações a clínica oferece?
+    - Quais operações tenho?
+    - Operações?
+    - O que vocês oferecem?
+    - Quais operações posso escolher?
+- intent: pare
+  examples: |
+    - Pare
+    - pare
+    - Gostaria de parar a conversa
+    - Gostaria de parar
+    - Na verdade, mudei de ideia
+- intent: greet
+  examples: |
+    - Oi
+    - Olá
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+    - Como vai?
+    - Beleza?
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+- intent: goodbye
+  examples: |
+    - Tchau
+    - Tchau tchau
+    - Até mais
+    - Adeus
+    - Até o próximo encontro
+    - Falou
+    - Até
+- intent: affirm
+  examples: |
+    - sim
+    - Sim
+    - s
+    - beleza
+    - tudo bem
+    - com certeza
+    - parece bom para mim
+    - correto
+- intent: deny
+  examples: |
+    - não
+    - Não
+    - n
+    - nunca
+    - Acho que não
+    - Não gosto disso
+    - Negativo
+    - Talvez não
+    - Eu não quero isso
+    - Não obrigado
+- intent: obrigado
+  examples: |
+    - Obrigado
+    - Valeu
+    - Muito obrigado
+    - Beleza
+    - Muito bom
+    - Agradecido
+    - obrigado
+- intent: quero_consulta
+  examples: |
+    - sim, gostaria de agendar uma consulta
+    - Sim, gostaria de agendar uma consulta
+    - s, gostaria de agendar uma consulta
+    - Tudo bem, quero uma consulta
+    - Com certeza quero uma consulta
+    - Correto, quero uma consulta
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: request_names
+  examples: |
+    - Eu gostaria de dar meu nome
+    - Dar nome
+    - Você precisa saber meu nome
+    - Você sabe o meu nome?
+    - Gostaria que você conversasse com o meu nome
+
+- intent: give_time
+  examples: |
+    - Até mais
+    - Tchau

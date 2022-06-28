@@ -1,0 +1,94 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- inform
+- pergunta_operacoes
+- pare
+- obrigado
+- quero_consulta
+- greet
+- deny
+- request_names
+- goodbye
+- affirm
+- mood_great
+- mood_unhappy
+- bot_challenge
+- give_time
+slots:
+  name:
+    type: text
+    influence_conversation: true
+  telefone:
+    type: text
+    influence_conversation: true
+  operacao:
+    type: text
+    influence_conversation: true
+  data:
+    type: text
+    influence_conversation: true
+  horario:
+    type: text
+    influence_conversation: true
+responses:
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Isso te ajudou?
+  utter_happy:
+  - text: Muito bom, continue!
+  utter_iamabot:
+  - text: Eu sou um robô, feito usando Rasa.
+  utter_ask_name:
+  - text: Qual é o seu nome inteiro?
+  utter_slots_values:
+  - text: Eu vou lembrar que seu nome é {name} e seu telefone é {telefone}!
+  utter_greet:
+  - text: "Olá. Como vai? Posso te ajudar a fazer uma consulta com um profissional de saúde. Se está interessado, é só falar comigo!"
+  utter_goodbye:
+  - text: Adeus!
+  utter_sem_problemas:
+  - text: Sem problemas!
+  utter_ask_operacao:
+  - text: "Bem, que tipo de operação, exame ou consulta você deseja?"
+  utter_ask_data:
+  - text: "Muito bom. Em que dia deste mês você deseja agendar a operação? Lembrando que sábado, domingo e feriados não são dias que podem ser agendados"
+  utter_ask_horario:
+  - text: "Só mais um passo. Em que horário é melhor para você? Os profissionais de saúde estão disponíveis a partir das 8h e finalizam as 17h. Os atendimentos são feitos de 30min de 30min. Assim, se puder atender depois das 10:50, pode-se responder 11:00"
+  utter_continuar:
+  - text: "Desculpe-me, não entendi sua resposta. Voce deseja continuar com a conversa?"
+  utter_slot_valores:
+  - text: "Aqui estão as informações que você marcou para a consulta:\n
+            - Operação: {operacao}\n
+            - Data: {data}\n
+            - Horário: {horario}\n
+            "
+  utter_informacao_operacao:
+  - text: "As operações disponíveis para você fazer são: Documentação ortodôntica; Tomografia; Radiografia panorâmica; e Telerradiografia"
+  utter_ask_telefone:
+  - text: "Qual é seu número de telefone?"
+  utter_submit:
+  - text: Sua consulta foi agendada!
+
+actions:
+- utter_greet
+- utter_slots_values
+- utter_submit
+- utter_slots_valores
+- action_show_time
+forms:
+  name_form:
+    name:
+    - type: from_text
+    telefone:
+    - type: from_text
+    operacao:
+    - type: from_text
+    data:
+    - type: from_text
+    horario:
+    - type: from_text

@@ -1,0 +1,35 @@
+{
+  "id": "fc213254-fba0-4271-8450-9e7a87aadec3",
+  "name": "Pergunta horário",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Os profissionais de saúde começam o trabalho as 8h e finalizam as 17h. Os atendimentos ocorrem de 30min de 30min. Não fechamos para horário de almoço."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

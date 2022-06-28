@@ -1,0 +1,61 @@
+{
+  "id": "5e249d5a-8a1a-4fde-aec2-95c171f412d7",
+  "name": "Get Name",
+  "auto": true,
+  "contexts": [
+    "awaiting_name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_name",
+          "lifespan": 5
+        },
+        {
+          "name": "GetName-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fc3521ed-4221-4988-95c2-7a7c2159e852",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Olá $person. Bem vindo a clinica Odontológica! Como posso te ajudar?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

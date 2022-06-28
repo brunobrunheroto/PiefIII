@@ -1,0 +1,67 @@
+[
+  {
+    "id": "01a17b62-47f3-4b64-83a6-0b5bb7577e1f",
+    "data": [
+      {
+        "text": "Operacoes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d01ae3c1-03c3-49c4-8e19-847f9e536b2b",
+    "data": [
+      {
+        "text": "O que voces oferecem?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f18f7282-ab3d-4219-baa5-f9e70f787439",
+    "data": [
+      {
+        "text": "Quais sao as opcões de exame?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "86e77c9f-db14-41cf-b66a-d28911eeccc1",
+    "data": [
+      {
+        "text": "Quais sao as opcões?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bcaa2627-5f7c-47a6-9090-726a09296e3d",
+    "data": [
+      {
+        "text": "Quais operacoes vocês oferecem?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]
